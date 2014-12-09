@@ -1,0 +1,21 @@
+{
+  "name": "slashed",
+  "version": "0.0.0",
+  "description": "slashed api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parker",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "~7.0.0",
+    "mongojs": "~0.15.1",
+    "dotenv": "~0.4.0",
+    "require-directory": "~2.0.0",
+    "joi": "~4.7.0",
+    "underscore": "~1.7.0",
+    "es6-promise": "~2.0.0",
+    "yelp": "~0.1.1"
+  }
+}
