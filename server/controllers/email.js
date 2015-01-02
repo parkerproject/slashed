@@ -1,6 +1,6 @@
 require('dotenv').load();
 var collections = ['early_access'];
-var db = require("mongojs").connect(process.env.DEALSBOX_MONGODB_URL, collections);
+var db = require("mongojs").connect(process.env.SLASHED_MONGODB_URL, collections);
 
 function saveEmail(email, reply) {
     db.early_access.save({
