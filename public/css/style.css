@@ -418,8 +418,26 @@ border-color: #cf2a0e;
 color: #FFFFFF;
 }
 
-.btn-alert:hover{
+.btn-alert:hover, .btn-alert:active, .btn-alert:focus{
 background-color: #cf2a0e;
 border-color: #cf2a0e;
 color: #fff
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: inline-block;
+    color: red;
+}
+
+button{
+    outline: none;
+}
+
+.about p{
+    font-size: 20px;
+    margin: 10px 0;
 }

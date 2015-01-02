@@ -20,7 +20,7 @@ function checkEmail() {
         $('.js-email').removeClass('js-error');
         sendEmail(email);
     } else {
-        $('.js-email').addClass('js-error');
+        $('.error').addClass('show');
     }
 }
 
