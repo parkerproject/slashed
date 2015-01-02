@@ -1,4 +1,3 @@
-slashed
-=======
-
-An easy way to find private sales
+Dealsbox-landing
+==================
+The Landing page for Dealsbox mobile app
